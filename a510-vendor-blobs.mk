@@ -18,7 +18,9 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a510/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
     vendor/acer/a510/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/acer/a510/proprietary/bin/tf_daemon:system/bin/tf_daemon \
+    vendor/acer/a510/proprietary/bin/rild:system/bin/rild \
     vendor/acer/a510/proprietary/etc/enctune.conf:system/etc/enctune.conf \
+    vendor/acer/a510/proprietary/etc/acer_ril.db:system/etc/acer_ril.db \
     vendor/acer/a510/proprietary/etc/firmware/UartSet1024Kbps.bin:system/etc/firmware/UartSet1024Kbps.bin \
     vendor/acer/a510/proprietary/etc/firmware/UartSet2048Kbps.bin:system/etc/firmware/UartSet2048Kbps.bin \
     vendor/acer/a510/proprietary/etc/firmware/UartSet3Mbps.bin:system/etc/firmware/UartSet3Mbps.bin \
@@ -50,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/acer/a510/proprietary/lib/libami_sensor_mw.so:system/lib/libami_sensor_mw.so \
     vendor/acer/a510/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/acer/a510/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
+    vendor/acer/a510/proprietary/lib/libhuawei-ril.so:system/lib/libhuawei-ril.so \
     vendor/acer/a510/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/acer/a510/proprietary/lib/libmlplatform.so:system/lib/libmlplatform.so \
     vendor/acer/a510/proprietary/lib/libmpl.so:system/lib/libmpl.so \
